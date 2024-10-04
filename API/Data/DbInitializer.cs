@@ -235,6 +235,8 @@ public static class DbInitializer
         {
             context.Products.Add(product);
         }
+        
+        //products.AddRange(products);
 
         context.SaveChanges();
     }
